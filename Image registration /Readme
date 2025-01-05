@@ -1,1 +1,21 @@
-This is a personal project to perform image registration of a 3D object into a video stream. 
+This is a personal project to perform image registration of a 3D object into a video stream. I have used OpenGL 3D library, Pygame library for video stream and controlling the rendered 3D object. The code is based on python language. 
+
+The idea is to render a simple 3D object onto a video stream. A live USB camera can also be used as input intead of pre reocrded video steam. The object here is a 3D semi-transparent cuboid rendered inot to the pre recorded video, to register with a table clock. 
+
+Image registration is process of alinging images with different coordinates into same coordinates. 
+
+Keyboad controls for moving the 3D cuboid:
+**Key**                                  **Action**
+Left Arrow                  Move the cuboid left along the X-axis
+Right Arrow                 Move the cuboid right along the X-axis
+Up Arrow                    Move the cuboid up along the Y-axis
+Down Arrow                  Move the cuboid down along the Y-axis
+W                           Move the cuboid forward along the Z-axis
+S                           Move the cuboid backward along the Z-axis
+Q                           Rotate the cuboid counter-clockwise (Roll, Z-axis)
+E                           Rotate the cuboid clockwise (Roll, Z-axis)
+R                           Rotate the cuboid upward (Pitch, X-axis)
+F                           Rotate the cuboid downward (Pitch, X-axis)
+A                           Rotate the cuboid left (Yaw, Y-axis)
+D                           Rotate the cuboid right (Yaw, Y-axis)
+
